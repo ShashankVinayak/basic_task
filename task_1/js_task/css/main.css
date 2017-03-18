@@ -1,0 +1,88 @@
+/* TAG SELECTORS */
+
+body{
+    background-color: #F5F5F5;
+    margin:0;
+}
+
+header{
+    padding:1em;
+}
+
+h1{
+    -webkit-margin-before:0;
+    -webkit-margin-after:0;
+    padding-left: 2em;
+    font-family: Verdana;
+}
+
+/* CLASS SELECTORS */
+
+.content{
+    margin-top: 2em;
+    margin-left: 25em;
+    margin-right:25em;
+    background-color: #212121;
+    color:#ECEFF1;
+    box-shadow: 0 0 5px 2.5px #263238;
+    font-family: Helvetica;
+}
+
+.form-content{
+    padding: 0.25em;
+}
+
+.form-content > * {
+    margin:1em;
+}
+
+.mandatory-star{
+    color: #F44336;
+}
+
+.gender-option{
+    float: right;
+    margin-right:0.5em;
+}
+
+.termsandconditions{
+    clear: right;
+    margin-top: 5em;
+    padding-left: 1em;
+}
+
+.buttons{
+    margin-top: 1.5em;
+}
+
+/* ATTRIBUTE SELECTORS */
+
+input[type=text], input[type=email], input[type=password], textarea{
+    float: right;
+    border-radius: 0.2em;
+    border:0;
+}
+
+input[type=reset], input[type=submit]{
+    width: 12em;
+    height: 3em;
+    color: #ECEFF1;
+    font-family: "Arial Black";
+}
+
+input[type=reset]{
+    margin-left:0.5em;
+    border-radius: 0.6em;
+    background-color: #F44336;
+    border:0;
+}
+
+input[type=submit]{
+    float: right;
+    margin-right: 0.5em;
+    border-radius: 0.6em;
+    background-color: #4CAF50;
+    border:0;
+}
+
+
